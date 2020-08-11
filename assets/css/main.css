@@ -2961,7 +2961,7 @@ input, select, textarea {
 		/* Main */
 
 			.main .image.primary {
-				display: block;
+				display: none;
 				margin: 0 0 4em 0;
 			}
 
@@ -3028,6 +3028,15 @@ input, select, textarea {
 				display: none;
 			}
 
+			.main .goto-begin {
+				display: none;
+			}
+
+			.skills {
+				margin-right: 20px;
+				font-size: 15px;
+			}
+
 		/* Header */
 
 			#header {
@@ -3073,6 +3082,10 @@ input, select, textarea {
 			}
 
 		/* List */
+
+			.skills {
+				font-size: 10px;
+			}
 
 			ul.actions {
 				margin: 0 0 2em 0;
